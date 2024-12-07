@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dpmujegubyjne"]
+
+[ext_resource type="TileSet" uid="uid://cox86m312ncd3" path="res://tilesets/tileset1.tres" id="1_442xw"]
+
+[node name="dirt" type="PGTilemap"]
+tiles_json = "res://tilesets/tiles_json/dirt_tiles.json"
+dimension_height = 19
+start_pos = Vector2i(2, 2)
+z_index = 1
+tile_set = ExtResource("1_442xw")

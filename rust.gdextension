@@ -1,0 +1,16 @@
+[configuration]
+entry_symbol = "gdext_rust_init"
+compatibility_minimum = 4.1
+
+[libraries]
+linux.debug.x86_64 = "res://rust-gdext/target/debug/libgdext.so"
+linux.release.x86_64 = "res://rust-gdext/target/release/libgdext.so"
+windows.debug.x86_64 = "res://rust-gdext/target/debug/gdext.dll"
+windows.release.x86_64 = "res://rust-gdext/target/release/gdext.dll"
+macos.debug = "res://rust-gdext/target/debug/libgdext.dylib"
+macos.release = "res://rust-gdext/target/release/libgdext.dylib"
+macos.debug.arm64 = "res://rust-gdext/target/debug/libgdext.dylib"
+macos.release.arm64 = "res://rust-gdext/target/release/libgdext.dylib"
+web.debug.wasm32 = "res://rust-gdext/target/wasm32-unknown-emscripten/debug/gdext.wasm"
+web.release.wasm32 = "res://rust-gdext/target/wasm32-unknown-emscripten/release/gdext.wasm"
+
